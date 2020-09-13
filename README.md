@@ -57,3 +57,15 @@ mail.febas.net
 Webmail:
 https://webmail.febas.de/
  
+ 
+ ---------------------------------------
+ 
+ Vue / asp.net App created
+ start app
+    - cd /beInked_vue_dotnet
+    - npm run dev
+    or start with Visual Studio
+    
+    asp.net server side
+    vue Client Side
+
