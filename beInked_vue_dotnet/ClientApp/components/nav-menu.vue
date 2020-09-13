@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <router-link class="navbar-brand" to="/"><icon :icon="['fab', 'microsoft']" /> ASP.NET Core & Vue.js</router-link>
+            <router-link class="navbar-brand" to="/"><icon :icon="['fab', 'microsoft']" /> beInked</router-link>
 
             <transition name="slide">
                 <div :class="'collapse navbar-collapse' + (!collapsed ? ' show':'')" v-show="!collapsed">
