@@ -4,27 +4,13 @@
     background: #1e0e40;
 }
 
-.dark {
-    color: #1e0e40;
-}
+.dark { color: #1e0e40; }
+.fuscia { color: #e91e63; }
 
-.fuscia {
-    color: #e91e63;
-}
+.dark-bg { background: #1e0e40; }
 
-.dark-bg {
-    background: #1e0e40;
-}
-
-.btn-primary {
-    background: #e91e63;
-    border: 1px #e91e63 solid;
-}
-
-    .btn-primary:hover {
-        background: #1e0e40;
-        border: 1px #1e0e40 solid;
-    }
+.btn-primary { background: #e91e63; border: 1px #e91e63 solid;}
+.btn-primary:hover { background: #1e0e40; border: 1px #1e0e40 solid;}
 
 .page-item.active .page-link {
     background: #e91e63;
@@ -38,34 +24,31 @@
 a, .page-link, .page-link:hover {
     color: #e91e63;
 }
-
-    a:hover {
-        color: #1e0e40;
-    }
+a:hover {
+    color: #1e0e40;
+}
 
 /* Highlighting rules for nav menu items */
 li.nav-item {
     margin: 1rem 0 0 0;
 }
-
 .nav-item a {
     display: inline-block;
     padding: 2rem;
 }
+.nav-item a.active,
+.nav-item a.active:hover,
+.nav-item a.active:focus {
+    background-color: #e91e63;
+    color: white;
+    text-decoration: underline;
+}
 
-    .nav-item a.active,
-    .nav-item a.active:hover,
-    .nav-item a.active:focus {
-        background-color: #e91e63;
-        color: white;
-        text-decoration: underline;
-    }
-
-    .nav-item a,
-    .nav-item a:hover,
-    .nav-item a:focus {
-        color: white;
-    }
+.nav-item a,
+.nav-item a:hover,
+.nav-item a:focus {
+    color: white;
+}
 
 /* Keep the nav menu independent of scrolling and on top of other items */
 .main-nav {
@@ -84,7 +67,6 @@ li.nav-item {
     max-width: 600px;
     height: auto;
 }
-
 .trilon-mini {
     max-width: 300px;
     height: auto;
@@ -103,43 +85,37 @@ li.nav-item {
         height: 100%;
         width: calc(25% - 20px);
     }
-
-        .main-nav .navbar {
-            border-radius: 0px;
-            border-width: 0px;
-            height: 100%;
-        }
-
+    .main-nav .navbar {
+        border-radius: 0px;
+        border-width: 0px;
+        height: 100%;
+    }
     .navbar-expand-md .navbar-nav {
         flex-direction: column;
     }
-
     .navbar-header {
         float: none;
     }
-
     .navbar-collapse {
         border-top: 1px solid #444;
         padding: 0px;
     }
-
-        .navbar-collapse ul {
-            float: none;
-        }
-
+    .navbar-collapse ul {
+        float: none;
+    }
     .nav-item {
         float: none;
         font-size: 15px;
         margin: 6px;
     }
-
-        .nav-item a {
-            padding: 10px 16px;
-            border-radius: 4px;
-            color: white;
-        }
+    .nav-item a {
+        padding: 10px 16px;
+        border-radius: 4px;
+        color: white;
+    }
 
     .navbar a {
+
         /* If a menu item's text is too long, truncate it */
         width: 95%; /* Bug to fix here. Width 100% overflow. */
         white-space: nowrap;
