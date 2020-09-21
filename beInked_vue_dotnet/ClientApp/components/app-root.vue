@@ -1,14 +1,15 @@
 <template>
     <div id="app" class="container-fluid">
-        <div class="row">
-            <div class="col-md-3">
+            
+            <div class="navbar-expand-lg navbar-light bg-light">
                 <nav-menu params="route: route"></nav-menu>
             </div>
-            <div class="col-sm-9">
+            <div class="container">
+                <div class="col-sm-2"> </div>
                 <router-view></router-view>
             </div>
         </div>
-    </div>
+    
 </template>
 
 <script>
@@ -26,4 +27,5 @@
 </script>
 
 <style>
+    
 </style>

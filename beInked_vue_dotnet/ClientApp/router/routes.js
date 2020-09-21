@@ -1,14 +1,30 @@
 import CounterExample from 'components/counter-example'
 import FetchData from 'components/fetch-data'
 import HomePage from 'components/home-page'
-import About from 'components/about'
-import Landing from 'components/landing-page'
 
 
 export const routes = [
-  { name: 'home', path: '/', component: HomePage, display: 'Home', icon: 'home' },
-  { name: 'about', path: '/about', component: About, display: 'About Template', icon: 'info' },
-  { name: 'counter', path: '/counter', component: CounterExample, display: 'Counter', icon: 'graduation-cap' },
-  { name: 'fetch-data', path: '/fetch-data', component: FetchData, display: 'Data', icon: 'list' },
-  { name: 'Landing-Page', path: 'landing', component: Landing, display: 'Landing'}
+  {
+    name: 'home',
+    path: '/',
+    component: HomePage,
+    display: 'Home',
+    icon: 'home'
+  },
+
+  {
+    name: 'counter',
+    path: '/counter',
+    component: CounterExample,
+    display: 'Counter',
+    icon: 'graduation-cap'
+  },
+
+  {
+    name: 'fetch-data',
+    path: '/fetch-data',
+    component: FetchData,
+    display: 'Data',
+    icon: 'list'
+  }
 ]
