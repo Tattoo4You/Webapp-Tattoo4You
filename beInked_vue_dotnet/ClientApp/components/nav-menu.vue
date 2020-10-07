@@ -1,35 +1,39 @@
 ﻿<template>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-        <ul class="navbar-nav">
-            <li class="nav-item ">
-                <a class="nav-link" href="/tatoo-artists">Tattoo Artists <span class="sr-only">(current)</span></a>
-            </li>
+        
+        
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/tatoo-artists">Tattoo Artists <span class="sr-only">(current)</span></a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/tattoo-style">Tattoo Style</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tattoo-style">Tattoo Style</a>
+                </li>
 
-            <a>
-                <img src="../../Logo/Logo.png" width="50" height="50" class="d-inline-block align-top" href="/#" alt="">
-            </a>
-
-            <li class="nav-item">
-                <a class="nav-link" href="/tattoo-galerie">Tattoo Galerie</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tattoo Styles
+                <a>
+                    <img src="../../Logo/Logo.png" width="50" height="50" class="d-inline-block align-top" href="/#" alt="">
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="/">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            
-        </ul>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/tattoo-galerie">Tattoo Galerie</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tattoo Styles
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="/">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+            </ul>
+        
     </nav>
 </template>
 
