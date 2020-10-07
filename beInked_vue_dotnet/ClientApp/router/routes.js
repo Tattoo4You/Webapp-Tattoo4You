@@ -1,6 +1,7 @@
 import CounterExample from 'components/counter-example'
 import FetchData from 'components/fetch-data'
 import HomePage from 'components/home-page'
+import LoginUser from 'components/user_login'
 
 
 export const routes = [
@@ -12,19 +13,12 @@ export const routes = [
     icon: 'home'
   },
 
-  {
-    name: 'counter',
-    path: '/counter',
-    component: CounterExample,
-    display: 'Counter',
-    icon: 'graduation-cap'
-  },
 
   {
-    name: 'fetch-data',
-    path: '/fetch-data',
-    component: FetchData,
-    display: 'Data',
-    icon: 'list'
+    name: 'login',
+    path: '/login',
+    component: LoginUser,
+    display: 'Login',
+    icon: 'login'
   }
 ]
