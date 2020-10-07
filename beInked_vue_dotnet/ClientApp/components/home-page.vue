@@ -1,62 +1,91 @@
 <template>
     <div>
-        <div class="carousel-inner">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
 
-            <div class="carousel-item active">
-                <img src="../../pics/slider_1_home.jpg" alt="Los Angeles">
-                <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
-                    <p>We had such a great time in LA!</p>
+                <div class="carousel-item active">
+                    <img src="../../pics/slider_1_home.jpg" alt="Los Angeles">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <button type="button" class="btn btn-dark">Learn more</button>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../../pics/slider_2_home.jpg" alt="Los Angeles">
+                    <div class="carousel-caption">
+
+                        <h3>Los Angeles</h3>
+
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="../../pics/slider_2_home.jpg" alt="Los Angeles">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="carousel-item ">
-                <img src="../../pics/slider_2_home.jpg" alt="Los Angeles">
-                <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
-                    <p>We had such a great time in LA!</p>
+            <div class="container">
+                <div class="infoHome">
+                    <p>
+                        Hier findest Du deine passenden Ideen und Tattoomotive für dich.
+                        Lass dich inspirieren von den Tätowierern in deiner Umgebung und Deutschlandweit.
+                        Finde für dich deinen Tattoostil und das richtige Tattoostudio.
+                    </p>
                 </div>
-            </div>
-        </div>
 
-        <div class="container">
-            <div class="infoHome">
-                <p>
-                    Hier findest Du deine passenden Ideen und Tattoomotive für dich.
-                    Lass dich inspirieren von den Tätowierern in deiner Umgebung und Deutschlandweit.
-                    Finde für dich deinen Tattoostil und das richtige Tattoostudio.
-                </p>
+
+
             </div>
 
-            <div class="styleIcons">
-                <img src="../../Logo/Logo.png" />
-                <img src="../../Logo/Logo.png" />
+            <div>
+                <marquee behavior="scroll" direction="right" class="style_marquee">
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                </marquee>
             </div>
 
-        </div>
-        <div class="fullscreen_pic parallax">
-        </div>
+            <div class="fullscreen_pic parallax"></div>
 
-        <div class="container">
-            <div class="tattooArtists">
-                <img src="../../Logo/Logo.png" />
-                <img src="../../Logo/Logo.png" />
+            <div class="container">
+                <div class="tattooArtists">
+                    <img src="../../Logo/Logo.png" />
+                    <img src="../../Logo/Logo.png" />
+                </div>
+
             </div>
 
+            <div class="fullscreen_pic_2 parallax"></div>
+
+            <div>
+                <marquee behavior="scroll" direction="right">
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                    <img src="../../Logo/Logo.png" width="200" height="200" alt="Natural" />
+                </marquee>
+            </div>
+            </div>
         </div>
-
-
-
-
-    </div>
 </template>
 
 <script>
 export default {
   data () {
     return {}
-  }
-}
+    }
+
+    }
+
+    
 </script>
 
 <style>
@@ -103,5 +132,9 @@ export default {
         height: 300px;
         margin-top:50px;
         margin-bottom: 100px;
+    }
+
+    .style_marquee{
+        margin-bottom:50px;
     }
 </style>
